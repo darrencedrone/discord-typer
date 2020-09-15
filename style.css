@@ -1,0 +1,71 @@
+img {
+  width: 25%;
+  vertical-align: middle;
+}
+
+button {
+  margin-top: 5px;
+  border-radius: 8px;
+  border-color: black;
+  border-style: solid;
+  width: 140px;
+  height: 70px;
+  font-size: 22px;
+  background-color: #1dab39;
+  color: white;
+}
+
+body {
+  background-color: #23272A;
+}
+
+input {
+  resize: none;
+  background-color: #2C2F33;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nYivNm4I81PZQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  height: 300px;
+  width: 47%
+}
+
+textarea {
+  resize: none;
+  background-color: #2C2F33;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nYivNm4I81PZQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  height: 300px;
+  width: 47%
+}
+
+span {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nYivNm4I81PZQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+#word {
+  float: left;
+}
+
+#display {
+  float: right;
+}
