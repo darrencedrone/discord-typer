@@ -20,7 +20,7 @@ const getResult = () => {
   const joinedSentence = insertFormatting(newSentence, 21).join(': ')
   const regex = /:regional_indicator_ :/gi
   const finalSentence = joinedSentence.replace(regex, "   ")
-  const displaySentence = joinedSentence.replace(regex, "&nbsp&nbsp&nbsp")
+  const displaySentence = joinedSentence.replace(regex, "&nbsp&nbsp&nbsp").toLowerCase()
   document.getElementById('display').innerHTML = displaySentence + ":"
 }
 
@@ -46,6 +46,6 @@ const copyText = () => {
   const joinedSentence = insertFormatting(newSentence, 21).join(': ')
   const regex = /:regional_indicator_ :/gi
   const finalSentence = joinedSentence.replace(regex, "   ")
-  const copyText = finalSentence + ":"
+  const copyText = finalSentence.toLowerCase() + ":"
   navigator.clipboard.writeText(copyText)
 }

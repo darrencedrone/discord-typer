@@ -11,8 +11,8 @@
   <img src="./Discord-Logo+Wordmark-White" alt="Discord logo">
   <span>EMOJI TEXT GENERATOR</span>
   <br>
-  <textarea id="word" name="word" onchange="getResult()" placeholder="&#10;&#10;Type your text here"></textarea>
-  <textarea id="display" name="display" placeholder="&#10;&#10;Discord text appears here"></textarea>
+  <textarea id="word" name="word" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode === 32)" onchange="getResult()" placeholder="Type your text here (letters only)"></textarea>
+  <textarea id="display" name="display" placeholder="Discord text appears here"></textarea>
   <button id="button" onclick="copyText();this.innerHTML ='Text Copied!';"
     onmouseover="this.innerHTML ='Copy text'">Copy text</button>
 </body>
